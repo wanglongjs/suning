@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阴阳师</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .mian {
+            width: 100%;
+            max-width: 1920px;
+            min-width: 1400px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .mian .header {
+            max-width: 1920px;
+            max-width: 1920;
+            min-width: 1400px;
+            height: 37px;
+            position: relative;
+            overflow-x: hidden;
+            z-index: 9999;
+            background-color: #fff;
+        }
+
+        .mian .dibu {
+            max-width: 1920px;
+            max-width: 1920;
+            min-width: 1400px;
+            height: 350px;
+            position: relative;
+            overflow-x: hidden;
+            background-color: black;
+        }
+
+        .dibu .dibu_1 {
+            position: relative;
+            /* width: 70%; */
+            max-width: 1300px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 300px;
+            /* border: solid 1px red; */
+            margin: 0 auto;
+        }
+
+        .dibu_1 .dibu_11 {
+            position: relative;
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: black;
+
+        }
+
+        .dibu .dibu_12 {
+            position: relative;
+            float: left;
+            left: 0%;
+            width: 36.5%;
+            height: 280px;
+            /* background-color: red; */
+        }
+
+
+        .dibu .dibu_13 {
+            position: relative;
+            float: right;
+            right: 5%;
+            width: 27%;
+            height: 300px;
+            top: 3px;
+            /* background-color: pink; */
+        }
+
+        .dibu_13 a img {
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+
+        .dibu_13 h2 span {
+            color: rgb(165, 152, 152);
+        }
+
+        .dibu_13 p {
+            font-size: 16px;
+            color: rgb(156, 141, 141);
+            position: relative;
+            top: 10px;
+
+        }
+
+        .dibu_13 .dibu_131 {
+            position: relative;
+            /* right: 5%; */
+            top: 28px;
+            width: 300px;
+            height: 100px;
+            /* border: solid red; */
+        }
+
+        .dibu_11 .dibu_111 {
+            position: relative;
+            left: 20px;
+            width: 310px;
+            height: 30px;
+            float: left;
+            background-color: black;
+        }
+
+        .dibu_111 ul {
+            position: relative;
+
+            width: 370px;
+            height: 50px;
+            list-style: none;
+        }
+
+        .dibu_111 ul li {
+            float: left;
+            text-indent: 30px;
+
+        }
+
+        .dibu_111 ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 700;
+
+        }
+
+        span img {
+            float: left;
+        }
+
+        .dibu_11 .dibu_112 {
+            position: relative;
+            left: 20px;
+            background-color: black;
+            float: left;
+            width: 340px;
+            height: 300px;
+
+        }
+
+        .jiao {
+            max-width: 1920px;
+            max-width: 1920;
+            min-width: 1400px;
+            height: 200px;
+            position: relative;
+            overflow-x: hidden;
+            background-color: #2b1426;
+        }
+
+        .jiao .jiao_1 {
+            width: 97px;
+            height: 100px;
+            position: relative;
+            float: left;
+            left: 25%;
+            top: 25px;
+
+
+        }
+
+        .jiao_1 img {
+            position: relative;
+            left: 25%;
+            top: 15px;
+        }
+
+        .jiao_2 span {
+            position: relative;
+            left: 40%;
+            top: 50px;
+            color: #996666;
+
+
+        }
+
+        .jiao_3 {
+            position: relative;
+            left: 33.7%;
+            float: left;
+            top:80px;
+
+        }
+
+        .jiao h5 {
+            position: relative;
+            left: 33.3%;
+            color: #996666;
+            line-height: 20px;
+        }
+
+
+        .dibu_112 p span{
+            position: relative;
+            left: 20px;
+            
+        }
+
+        .dibu_112 p {
+            font-size: 14px;
+            width: 360px;
+            color: #fff;
+            line-height: 46px;
+        }
+
+        p::first-letter {
+            color: rgb(71, 69, 69);
+        }
+
+        .header .header_1 {
+            width: 10%;
+            height: 36px;
+            /* background-color: black; */
+            display: inline-block;
+            position: relative;
+            left: 400px;
+            top: 5%;
+            z-index: 13 !important;
+
+        }
+
+        .header .header_2 {
+            position: relative;
+            right: 13%;
+            width: 20%;
+            height: 23px;
+            /* background-color: black; */
+            top: 8px;
+            float: right;
+        }
+
+        .header_2 span a {
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 13px;
+        }
+
+        .header_2 img {
+            position: relative;
+            top: 2px;
+        }
+
+        #pn {
+            position: relative;
+            left: 10%;
+        }
+
+        #png {
+            position: relative;
+            left: 10%;
+            top: 2px;
+        }
+
+        #header_11 img {
+            position: relative;
+            top: 10px;
+            /* left:200px; */
+            height: 20px;
+        }
+
+
+        .beijing {
+            width: 100%;
+            height: 1050px;
+            /* border: solid red 1px; */
+            position: relative;
+        }
+
+        #beijing_11 {
+            background-image: url(./images/p1.jpg);
+            /* background-repeat: round; */
+            background-position-x: center;
+            background-position-y: top;
+            background-size: initial;
+            background-repeat-x: no-repeat;
+            background-repeat-y: no-repeat;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: initial;
+        }
+
+        #beijing_11 .zhongbu .zhongbu_1 {
+            position: relative;
+            width: 320px;
+            height: 150px;
+            display: inline-block;
+            top: 40%;
+            /* background: #000; */
+            /* filter: alpha(opacity 30);
+            opacity: 0.3; */
+            border-radius: 15px;
+            background-color: rgba(54, 52, 54, 0.8);
+            left: 0%;
+        }
+
+        .zhongbu_1 img {
+            position: relative;
+            top: 10px;
+            width: 40%;
+            left: 12px;
+            background-color: rgba(255, 0, 0, .1)
+        }
+
+        .zhongbu .btobox {
+            float: right;
+            position: relative;
+            width: 40%;
+            height: 120px;
+            top: 10px;
+            right: 20px;
+            padding: 0 10px;
+            padding-top: 0px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+            /* padding-left: 10px border: solid red; */
+            /* background-color: red; */
+        }
+
+        .btobox a {
+            height: 18px;
+            padding: 10px 6px;
+            background-color: #ccc;
+            display: block;
+            margin: 3px 0;
+            outline: none;
+            outline-color: initial;
+            outline-style: none;
+            outline-width: initial;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        a #span {
+            color: rgb(116, 148, 85);
+            font-size: 18px;
+        }
+
+        #span1 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        #span2 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+
+        #beijing_11 .zhongbu {
+
+            position: relative;
+            width: 60%;
+            height: 1050px;
+            /* border: solid 1px red; */
+            margin: 0 auto;
+
+        }
+
+        #beijing_22 {
+            background-image: url(./images/p2.jpg);
+            background-position-x: center;
+            background-position-y: top;
+            background-size: initial;
+            background-repeat-x: no-repeat;
+            background-repeat-y: no-repeat;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: initial;
+        }
+
+        #beijing_33 {
+            background-image: url(./images/p3.jpg);
+            background-position-x: center;
+            background-position-y: top;
+            background-size: initial;
+            background-repeat-x: no-repeat;
+            background-repeat-y: no-repeat;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mian">
+        <div class="header">
+            <div class="header_1" id="header_11">
+                <img src="./images/2.png">
+            </div>
+            <div class="header_2">
+                <img src="./images/1.png" alt="">
+                <span>
+                    <a href="">登录|</a>
+                </span>
+                <span>
+                    <a href="">注册|</a>
+                </span>
+                <span id="pn">
+                    <a href="">全部游戏</a>
+                </span>
+                <img src="./images/3.png" alt="" id="png">
+            </div>
+        </div>
+        <div class="beijing" id="beijing_11">
+            <div class="zhongbu">
+                <div class="zhongbu_1">
+                    <img src="./images/二维.PNG" alt="">
+                    <div class="btobox">
+                        <a href="">
+                            <span id="span">安卓下载</span>
+                        </a>
+                        <a href="">
+                            <span id="span1">
+                                iOS下载
+                            </span>
+                        </a>
+                        <a href="">
+                            <span id="span2">
+                                PC端下载
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dibu">
+            <div class="dibu_1">
+                <div class="dibu_11">
+                    <div class="dibu_111">
+                        <ul>
+                            <li>
+                                <a href="">新闻公告</a>
+                            </li>
+                            <li>
+                                <a href="">活动</a>
+                            </li>
+                            <li>
+                                <a href="">攻略</a>
+                            </li>
+                            <li>
+                                &nbsp; &nbsp; &nbsp;
+
+                                <a href="">
+                                    <img src="./images/4.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="dibu_112">
+                        <p>》《阴阳师》全新SSR阶式神鬼切降临!
+                            <span>07-30</span>
+
+                        </p>
+                        <p>
+                            》《阴阳师》“友人帐”功能上线！&nbsp;
+                            <span>07-26</span>
+                        </p>
+                        <p>
+                            》《阴阳师》御馔津结界皮肤如约而至
+                            <span>07-20</span>
+                        </p>
+                        <p>
+                            》《阴阳师》手游7月18日维护更新公告
+                            <span>07-17</span>
+                        </p>
+                        <p>
+                            》《阴阳师》酒吞童子全新皮肤降临！
+                            <span>07-17</span>
+                        </p>
+                        <p>
+                            》《阴阳师》×《犬夜叉》联动引回忆
+                            <span>07-12</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="dibu_12">
+                    <img src="./images/du.PNG" alt="">
+                </div>
+                <div class="dibu_13">
+                    <h2>
+                        <span>游戏简介</span>
+                    </h2>
+                    <p>
+                        结界震荡，流云乱舞，最近的平安京似乎又将迎来一场大风波。 《阴阳师》全新资料片第二弹“新年祭·年始初诣”拉开序幕，呆萌的呱太、愤怒的石距陆续来袭， 请各位阴阳师做好应战准备！还有更多惊喜活动等你来看！
+                    </p>
+                    <div class="dibu_131">
+                        <a href="">
+                            <img src="./images/6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="jiao">
+            <div class="jiao_1">
+                <img src="./images/13.png" alt="">
+            </div>
+            <div class="jiao_2">
+                <span>关于stargame|</span>
+                <span>招聘信息|</span>
+                <span>用户协议|</span>
+                <span>法律声明|</span>
+                <span>家长监护|</span>
+                <span>网站地图</span>
+            </div>
+            <div class="jiao_3">
+                <h5>渝ICP备14007792号-4渝网文[2015]1041-1042号</h5>
+                <h5>重庆星游传媒有限公司 Copyright © 2014-2015</h5>
+            </div>
+        </div>
+        <div class="beijing" id="beijing_22"></div>
+        <div class="beijing" id="beijing_33"></div>
+    </div>
+</body>
+
+</html>

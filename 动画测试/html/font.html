@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .one {
+            background-color: aqua;
+        }
+
+        .one ul {
+            list-style: none;
+      
+        }
+        ul li{
+                text-align: cneter;
+        }
+
+        .one ul a {
+            text-decoration: none;
+
+
+        }
+
+        .one>ul::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        .one>ul>li {
+            float: left;
+            width: 120px;
+            line-height: 2em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <ul>
+            <li>
+                <a href="">sdnn</a>
+            </li>
+            <li>
+                <a href="">sff</a>
+            </li>
+            <li>
+                <a href="">sss</a>
+            </li>
+            <li>
+                <a href="">sss</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

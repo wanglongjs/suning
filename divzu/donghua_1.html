@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            float: left;
+            position: relative;
+            left: 50%;
+            background-color: blue;
+            animation: Myniamtion 4s linear;
+            animation-direction: alternate;
+            animation-duration: 10s;
+        }
+
+        @keyframes Myniamtion {
+            0% {
+                left: 0px;
+                transform: skew(20deg);
+            }
+            10% {
+
+                left: 100px;
+                transform: skew(30deg);
+            }
+            20%{
+                left: 150px;
+
+            }
+            25% {
+                left: 150px;
+                transform: skew(40deg);
+            }
+            40% {
+                left: 200px;
+                transform: skew(50deg);
+            }
+            50% {
+
+                left: 250px;
+                transform: skew(60deg);
+            }
+            60% {
+                left: 300px;
+                transform: skew(70deg);
+            }
+            75% {
+                left: 350px;
+                transform: skew(80deg);
+            }
+            85%{
+                left: 350px;
+                transform: skew(90deg);
+            }
+            100% {
+                left: 400px;
+                transform: skew(100deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

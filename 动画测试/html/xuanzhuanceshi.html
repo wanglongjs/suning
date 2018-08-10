@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .content {
+            width: 400px;
+            height: 400px;
+            background-color: teal;
+            margin: 0 auto;
+
+        }
+
+        .content>.cont {
+            height: 400px;
+            background-color: pink;
+            box-sizing: border-box;
+            padding: 30px;
+            transition: all 3s;
+            box-shadow: 0px 0px 5px 2px black;
+        }
+
+        .content .cont:hover{
+            padding:0px;
+        }
+        .content>.cont>.crite {
+            height: 100%;
+            border: 5px solid #fff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+
+        <div class="cont">
+            <div class="crite"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 200px;
+            /* border: solid 1px; */
+            margin: 0;
+            background-color: #f9f9f9
+            border
+        }
+
+        .header .header_1 {
+            width: 1600px;
+            height: 34px;
+
+            margin: 0 auto;
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+            background-color: #f9f9f9;
+
+        }
+
+        .header .header_1 .daohang_1 {
+            width: 80%;
+            height: 34px;
+            margin: 0 auto;
+            
+        }
+
+        .zhanshilan {
+            width: 100px;
+            height: 110px;
+            display: inline-block;
+            border: solid 1px;
+            margin-left: 150px;
+        }
+
+        span {
+            margin-right: 50px;
+            margin-top: 3px;
+            float: right;
+            font-size: 13px;
+
+        }
+
+        li>a>span {
+            margin-bottom: 1px;
+        }
+
+        .daohang_1 span a:first-child {
+            text-decoration: none;
+            color: red;
+        }
+
+        span a {
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .daohang span:nth-last-of-type(1) {
+            font-size: 13px;
+        }
+
+        .daohang_1 .right_1 {
+
+            display: inline-block;
+        }
+
+        .right_1 {
+            float: right;
+        }
+
+        .rigth_1 ul li {
+
+            float: left;
+        }
+
+        li {
+            display: inline-block;
+
+        }
+
+        .right_1 a {
+            font-size: 12px;
+            text-decoration: none;
+
+        }
+
+        #beijing {
+            border: 0;
+
+        }
+
+
+        .logo_lign {
+            width: 1320px;
+            height: 100px;
+            /* border: solid 1px; */
+            margin: 0 auto;
+            position: relative;
+
+            /* padding: 0; */
+        }
+
+        .logo_lign #logo {
+            width: 300px;
+            height: auto;
+            position:absolute;
+
+            /* border:solid red; */
+            /* float: left; */
+        }
+
+        #logo img {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            margin-left: 20px;
+        }
+
+        .search {
+            width: 600px;
+            height: 38px;
+            position: absolute;
+            float: left;
+            left: 20%;
+            top: 20px;
+            border: red solid 4px;
+
+            /* margin:0 auto; */
+        }
+
+        form {
+            display: block;
+            height: 35px;
+        }
+
+        #text {
+            width: 454px;
+            height: 35px;
+
+        }
+
+        #button {
+            float: right;
+            height: 38px;
+        }
+
+        .search select {
+            width: 16%;
+            float: right;
+            height: 38px;
+            background-color: rgb(236, 231, 231);
+            border: 0;
+        }
+
+        .button_1 #image_1 {
+            height: 38px;
+            float: left;
+        }
+
+        .logo_lign .search_button {
+            position: absolute;
+            width: 560px;
+            height: 30px;
+            /* float: left; */
+            bottom:0%;
+            left: 5%;
+
+        }
+
+        .logo_lign .search_button #search_hot {
+
+            float: right;
+            position: absolute;
+            top: 20%;
+            left: 35.5%;
+
+        }
+
+        .search_not {
+            position: relative;
+            float: right;
+            left: 250px;
+            top: 3px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .button_1 {
+            width: 14%;
+            height: 40px;
+            /* float: right; */
+            /* border: solid 1px red; */
+            position: relative;
+            overflow: hidden;
+            left:70%;
+            top: 20px;
+            /* display: inline-block; */
+        }
+
+        .button_1 #button_2 {
+            width: 42%;
+            height: 38px;
+            float: left;
+        }
+
+        .header .dibu {
+            float: left;
+            position: relative;
+            right: 17.9%;
+        }
+        #select_2{
+            float: left;
+            position: relative;
+            left: 6%;
+            top:10px;
+            width:14%;    
+            height:50px;
+            border: 0;
+            font-size: 20px;
+            background-color:red
+           
+        }
+        #select_2 ul{
+ float: left; position: relative; left: 8%; top:10px; width:16%; height:50px; border: 0; font-size: 20px; background-color:red
+
+        }
+
+        .dibu {
+     
+            width:100%; 
+            height:60px;
+            float: left;
+            position: relative;
+            left:5%;
+      }
+      .dibu ul{
+            width:100%; height:60px;  position: absolute; left:0;
+      }
+        .dibu a {
+            height: 20%;
+            float: left;
+            
+            position: relative;
+            left: 150px;
+            top: 30px;
+            text-indent: 20px
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="header_1">
+            <div class="daohang_1">
+                <div class="right_1">
+                    <ul>
+                        <li>
+                            <a href="">购物车0 |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">我的订单 |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">我的云书房 |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <select name="" id="beijing">
+                                    <option value="">我的当当</option>
+                                </select>
+                            </a>
+                            |
+                        </li>
+
+                        <li>
+                            <a href="">小说投稿 |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">我要出书 |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <select name="" id="beijing">
+                                    <option value="">企业采购</option>
+
+                                </select>
+                            </a>
+                            |
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <select name="" id="beijing">
+                                    <option value="">客户服务</option>
+                                </select>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <label for="beijing">送至</label>
+                <select name="" id="beijing ">
+                    <option value="">北京</option>
+                </select>
+                <span>欢迎光临当当，请
+                    <a href="">登录</a>
+                    <a href="">成为会员</a>
+                </span>
+
+            </div>
+
+
+        </div>
+        <div class="logo_lign">
+            <div id="logo">
+                <img src="./image/2.jpg" alt="">
+            </div>
+            <div class="search_button">
+                <div id="search_hot">
+                    <a href="">热搜</a>
+                    <a href="">天鹅毛线</a>
+                    <a href="">破茧成蝶</a>
+                    <a href="">日有所涌</a>
+                    <a href="">昆虫记</a>
+                    <a href="">南怀瑾</a>
+                </div>
+                <a href="" class="search_not">高级搜索</a>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="image" src="image/homework_05.png" id="button">
+                    <input type="text" size="36px" id="text" placeholder="图书钜惠，每满100减50">
+
+                    <select name="" id="">
+                        <option value="">全部分类</option>
+                        <option value="">全部分类</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </form>
+
+            </div>
+            <div class="button_1">
+                <form action="">
+                    <input type="image" id="image_1" src="./image/homework_07.png">
+                    <input type="button" id="button_2" name="" value="我的订单">
+                </form>
+            </div>
+        </div>
+
+        <div class="dibu">
+
+            <ul>
+                <select name="" id="select_2">
+                    <option value="" id="select_21">全部商品分类</option>
+                </select>
+                <li>
+                    <b>
+                        <a href="">尾平会</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">图书</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">电子书</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">网络文学</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">服装</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">运动户外</a>
+                </li>
+                <li>
+                    <b>
+                        <a href="">孕婴童</a>
+                </li>
+                <li>
+                    <b>
+                        <a href="">家具</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">当当优品</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">食品</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">Apple</a>
+                    </b>
+                </li>
+                <li>
+                    <b>
+                        <a href="">电器城</a>
+                    </b>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+<hr style="border:solid red 3px; width:100%;">
+
+</body>
+
+</html>

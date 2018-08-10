@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .donghua {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: blue;
+            /* animation: A 10s infinite; */
+            /* 动画持续多长时间 */
+            /* animation-duration: 10s; */
+            /* 等待两秒 */
+            /* animation-delay: 2s; */
+            /* */
+            /* animation-direction: alternate; */
+            /* 动画从头到尾速度相同 */
+            /* animation-timing-function: linear; */
+        }
+
+        #button1:hover~.donghua {
+            animation: A 5s infinite;
+        }
+
+        @keyframes A {
+
+            /* 0% {
+                left: 50px;
+                /* transform: rotate(1deg); */
+            /* transform: rotateX(2deg);
+                transform: rotatey(2deg);
+                transform: rotateZ(2deg); */
+            /* } */
+            /* 10% {
+                left: 100px;
+                transform: rotateX(20deg);
+                transform: rotatey(20deg);
+                transform: rotateZ(20deg);
+            } */
+            /* 20% {
+                left: 200px;
+                transform: rotateX(30deg);
+                transform: rotatey(30deg);
+                transform: rotateZ(30deg);
+            } */
+            /* 30% {
+                left: 300px;
+                transform: rotateX(50deg);
+                transform: rotatey(50deg);
+                transform: rotateZ(50deg);
+            } */
+            /* 50% {
+                left: 400px;
+                transform: rotateX(70deg);
+                transform: rotatey(70deg);
+                transform: rotateZ(70deg);
+
+            } */
+            /* 80% {
+                left: 500px;
+                transform: rotateX(100deg);
+                transform: rotatey(100deg);
+                transform: rotateZ(100deg);
+            } */
+            from {
+                transform: translate(0px) rotateZ(0deg);
+            }
+            to {
+                transform: translate(300px) rotateZ(720deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button1">点击</button>
+    <div class="donghua"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("li").eq(0).addClass("selected");
+        });
+    </script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            background-color: chartreuse;
+            position: relative;
+            float: left;
+
+            /* animation-timing-function: initial; */
+            animation: Text1 1s infinite;
+
+        }
+        .selected{color:red;}
+
+        /* 绑定选择器的关键词帧 */
+
+        @keyframes Text1 {
+            from {
+                transform: translate(0px)  rotateZ(0deg);
+
+            }
+            to {
+                transform: translate(0px) rotateZ(360deg);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div></div> -->
+
+<div>
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+        <li>list item 6</li>
+    </ul>
+</div>
+</body>
+
+</html>
